@@ -25,10 +25,10 @@ const Footer = () => {
             </div>
             <div>
               <p className="font-heading font-semibold text-foreground">
-                Basker Muniswamy
+                Diven Pharma
               </p>
               <p className="text-xs text-muted-foreground">
-                Project Consultant
+                Consultancy Services
               </p>
             </div>
           </motion.div>
@@ -70,7 +70,7 @@ const Footer = () => {
             className="text-center md:text-right"
           >
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Basker Muniswamy. All rights reserved.
+              © {currentYear} Diven Pharma Consultancy Services. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground/70 mt-1 flex items-center justify-center md:justify-end gap-1">
               Crafted with <Heart className="w-3 h-3 text-destructive" /> for excellence
@@ -87,7 +87,7 @@ const Footer = () => {
           className="mt-8 pt-8 border-t border-border/50 text-center"
         >
           <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
-            Project Consultancy for Pharma, Cosmetics, Siddha, Ayurveda & Medical Devices
+            Consultancy for Pharma, Cosmetics, Siddha, Ayurveda & Medical Devices
           </p>
         </motion.div>
       </div>

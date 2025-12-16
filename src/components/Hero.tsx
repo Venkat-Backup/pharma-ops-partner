@@ -46,10 +46,8 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground leading-tight mb-6"
           >
-            Project Consultant for{" "}
-            <span className="text-gradient">
-              Pharma, Cosmetics, Siddha, Ayurveda & Medical Devices
-            </span>
+            <span className="text-gradient">Diven Pharma</span>{" "}
+            Consultancy Services
           </motion.h1>
 
           {/* Sub-headline */}
@@ -57,7 +55,16 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-8"
+            className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-4"
+          >
+            Your trusted partner for Pharma, Cosmetics, Siddha, Ayurveda & Medical Devices
+          </motion.p>
+          
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.25 }}
+            className="text-base text-muted-foreground max-w-2xl mx-auto mb-8"
           >
             End-to-end consultancy for compliant, scalable, and quality-driven
             manufacturing operations.
@@ -96,7 +103,7 @@ const Hero = () => {
               className="group text-base px-8 py-6 shadow-soft hover:shadow-lift transition-all duration-300"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Explore My Services
+              Explore Our Services
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
