@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Profile from "@/components/Profile";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
@@ -10,6 +11,7 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <Profile />
       <About />
       <Services />
       <Contact />
