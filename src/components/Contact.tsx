@@ -22,7 +22,7 @@ const Contact = () => {
     
     toast({
       title: "Message sent successfully!",
-      description: "I'll get back to you as soon as possible.",
+      description: "Our team will get back to you as soon as possible.",
     });
     
     setIsSubmitting(false);
@@ -33,8 +33,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "basker.pharma@gmail.com",
-      href: "mailto:basker.pharma@gmail.com",
+      value: "info@divenpharma.com",
+      href: "mailto:info@divenpharma.com",
     },
     {
       icon: Phone,
@@ -68,7 +68,7 @@ const Contact = () => {
             </h2>
             <p className="text-muted-foreground mb-8 max-w-md">
               Reach out to discuss consultancy requirements, project planning, or
-              regulatory support. I'm here to help you achieve operational excellence.
+              regulatory support. Our team is here to help you achieve operational excellence.
             </p>
 
             {/* Contact Details */}
@@ -185,7 +185,7 @@ const Contact = () => {
                     Message
                   </label>
                   <Textarea
-                    placeholder="Tell me about your project or requirements..."
+                    placeholder="Tell us about your project or requirements..."
                     rows={4}
                     required
                     className="bg-background/50 resize-none"

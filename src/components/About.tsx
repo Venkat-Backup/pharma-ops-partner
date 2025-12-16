@@ -36,7 +36,7 @@ const About = () => {
             transition={{ duration: 0.7 }}
           >
             <span className="inline-block text-sm font-medium text-primary uppercase tracking-wider mb-4">
-              About Me
+              About Us
             </span>
             <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-6">
               Decades of Expertise in{" "}
@@ -45,19 +45,19 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I am a Project Consultant with decades of hands-on experience across
+                Diven Pharma Consultancy Services is a leading consultancy firm with decades of hands-on experience across
                 pharmaceuticals, cosmetics, Siddha, Ayurveda, and medical device
-                industries. My work focuses on helping organizations establish, scale,
+                industries. Our team focuses on helping organizations establish, scale,
                 and optimize compliant manufacturing operations aligned with national
                 and international regulatory standards.
               </p>
               <p>
-                I have led and consulted on projects involving tablet, capsule, liquid
+                We have led and consulted on projects involving tablet, capsule, liquid
                 oral manufacturing, and medical device production including hemodialysis
                 fluids, ensuring adherence to WHO GMP and Medical Device Regulatory Rules.
               </p>
               <p>
-                My consultancy approach combines deep regulatory knowledge, practical
+                Our consultancy approach combines deep regulatory knowledge, practical
                 manufacturing experience, and strategic execution, enabling clients to
                 reduce risk, improve efficiency, and achieve sustainable operational
                 excellence.
@@ -66,7 +66,7 @@ const About = () => {
 
             {/* Credentials */}
             <div className="mt-8 flex flex-wrap gap-3">
-              {["WHO GMP Expert", "MDR Compliance", "Quality Systems"].map((credential, index) => (
+              {["WHO GMP Experts", "MDR Compliance", "Quality Systems"].map((credential, index) => (
                 <motion.div
                   key={credential}
                   initial={{ opacity: 0, scale: 0.9 }}
@@ -122,7 +122,7 @@ const About = () => {
                 trust, ensuring safety, and achieving excellence in every operation."
               </blockquote>
               <cite className="block mt-3 text-sm text-muted-foreground not-italic">
-                — Basker Muniswamy
+                — Diven Pharma Consultancy Services
               </cite>
             </motion.div>
           </motion.div>

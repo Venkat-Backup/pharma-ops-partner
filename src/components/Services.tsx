@@ -88,7 +88,7 @@ const Services = () => {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <span className="inline-block text-sm font-medium text-primary uppercase tracking-wider mb-4">
-            Services
+            Our Services
           </span>
           <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">
             Consultancy Services
